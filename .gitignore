@@ -1,0 +1,18 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# newly added gitignore, might need to be verified or changed later
+*.class
+local.properties
+Thumbs.db
+*.iml
+.idea
+.gradle
+build/
+obj/

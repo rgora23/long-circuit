@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Long Circuit</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="main_menu_activity_menu_button_text">Main Menu</string>
+    <string name="settings_activity_menu_button_text">Settings</string>
+    <string name="high_scores_activity_menu_button_text">High Scores</string>
+    <string name="gameplay_activity_menu_button_text">Play Game</string>
+    <string name="level_selector_activity_menu_button_text">Select Level</string>
 </resources>

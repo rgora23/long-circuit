@@ -3,8 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.nineinchmales.longcircuit.MainActivity">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:id="@+id/settings_activity_menu_button"
+        android:orderInCategory="0"
+        android:title="@string/settings_activity_menu_button_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gameplay_activity_menu_button"
+        android:orderInCategory="1"
+        android:title="@string/gameplay_activity_menu_button_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/level_selector_activity_menu_button"
+        android:orderInCategory="2"
+        android:title="@string/level_selector_activity_menu_button_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_menu_activity_menu_button"
+        android:orderInCategory="3"
+        android:title="@string/main_menu_activity_menu_button_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/high_scores_activity_menu_button"
+        android:orderInCategory="4"
+        android:title="@string/high_scores_activity_menu_button_text"
         app:showAsAction="never" />
 </menu>

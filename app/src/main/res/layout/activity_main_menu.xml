@@ -10,5 +10,20 @@
 
     <include layout="@layout/content_main_menu" />
 
+    <RelativeLayout
+        android:id="@+id/navbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+      >
 
+        <ImageButton
+            android:id="@+id/PlayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+
+
+    </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>

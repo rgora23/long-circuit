@@ -9,5 +9,6 @@ public class LevelSelectorActivity extends ActivityWithMenu {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level_selector);
+        setTitle("Select Level");
     }
 }

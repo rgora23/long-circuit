@@ -9,5 +9,6 @@ public class GameplayActivity extends ActivityWithMenu {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gameplay);
+        setTitle("Gameplay");
     }
 }
